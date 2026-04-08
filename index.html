@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,15 +19,21 @@
     <div class="controls">
         <input type="text" id="searchInput" placeholder="Search movies...">
         <button id="searchBtn">Search</button>
+
+        <select id="sortSelect">
+            <option value="">Sort By</option>
+            <option value="asc">Year Asc</option>
+            <option value="desc">Year Desc</option>
+        </select>
     </div>
 
     <h2>Movies</h2>
     <div id="movies" class="movies"></div>
 
-    <h2>⭐ Recommendations</h2>
-    <div id="recContainer" class="movies"></div>
+    <h2>❤️ Favorites</h2>
+    <div id="favContainer" class="movies"></div>
 
-    <script defer src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
