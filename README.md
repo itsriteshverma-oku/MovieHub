@@ -1,2 +1,15 @@
-# MovieHub
-Movie Hub is a web application that allows users to search and explore movies using real-time API data. It displays details like titles, posters, release years, and ratings. The project demonstrates API integration, dynamic rendering, and use of JavaScript higher-order functions like map, filter, and sort.
+🎬 Movie Explorer App
+
+A simple JavaScript-based web app that fetches trending movies using the TMDB API and allows users to search, sort, and add movies to favorites ❤️
+
+🚀 Features
+🔥 Fetch trending movies (daily)
+🔍 Search movies by title
+📅 Sort movies by release date (ascending / descending)
+❤️ Add movies to favorites
+🎨 Simple and clean UI
+🛠️ Tech Stack
+HTML
+CSS
+JavaScript
+TMDB API
